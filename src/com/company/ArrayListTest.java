@@ -42,14 +42,14 @@ public class ArrayListTest {
         list.sort(Comparator.naturalOrder());
         System.out.println("After sort " + list);
         //9. Write a Java program to copy one array list into another.
-        List<String> copedList = new ArrayList<>();
-        copedList.add("Cherry");
-        copedList.add("Wine");
-        copedList.add("Ruby");
-        copedList.add("Blood");
-        copedList.add("Merlot");
-        Collections.copy(list, copedList);
-        System.out.println("Source list " + copedList);
+        List<String> copiedList = new ArrayList<>();
+        copiedList.add("Cherry");
+        copiedList.add("Wine");
+        copiedList.add("Ruby");
+        copiedList.add("Blood");
+        copiedList.add("Merlot");
+        Collections.copy(list, copiedList);
+        System.out.println("Source list " + copiedList);
         System.out.println("After copy " + list);
         //10. Write a Java program to shuffle elements in a array list.
         System.out.println("Before shuffle " + list);
